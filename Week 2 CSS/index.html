@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="css/index.css">
+
+    <title>My first Website_HTML</title>
+</head>
+
+<!-- After head, before body- we have to put the style -->
+ <!-- We use selectors to apply all to different headings without retyping it again and again -->
+<!-- <style>
+    /* Multiple selectors - we just use the name of the selectors and do it  */
+    /* h1,h2,h3,p{
+        color:blue;
+    } */ 
+    body{
+          background-color: #F8FA90; 
+          /* this is to apply a pallete from websites with colors   */
+        color: rgb(86, 178, 21);
+    } 
+    div{
+        border-style: solid;
+        background-color: aliceblue;
+        color: #2d2e1c;
+        /* it applys it to nelson medela , but not the "His life is inspiring" because we already named that one as .para1 so it has a different role for it and the program knows not to read about it  */
+
+      }
+     /* body{
+        background-image: ; ==>check it later how to do it by yourself
+     } */
+      .para1{
+        color: blue;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      }
+      .para2{
+        color: rgb(255, 8, 0);
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+
+      }
+     
+
+</style> -->
+<body>
+    
+    <a href="contact.html">Contact Page</a>
+   <!-- ctrl +/ -->
+    <!-- 1. Comments in HTML  -->
+    <!-- HTML inbuild Tags -->
+
+    <!-- 2. Headings -->
+     <!-- <h1 style="color:blue;">Wedding Photography</h1>
+     <h2 style="color: red;">Portrait Photography</h2> -->
+     <h1>Wedding Photography</h1>
+     <h2> Portrait Photography</h2>
+     <h1>Newborn Photography</h1>
+     <h7>Other Photography</h7>
+     <!-- 3. Paragraphs  -->
+     <p> Hello, my name is Kristina. I am a photographer</p>
+     <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloremque quibusdam ipsa nulla illo quasi nisi quam officiis eveniet aliquam voluptates, architecto ipsam dicta molestias, qui blanditiis porro, placeat necessitatibus repellendus?</p>
+     <!-- <p>Lorem + enet gives you a text as an example, if you right lorem 100 it gives you long text</p> -->
+     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis harum quaerat libero dicta temporibus dignissimos quod reiciendis nulla esse maxime nostrum perspiciatis, perferendis obcaecati consequuntur itaque. Dolore, aut dolores impedit minima dignissimos voluptatem quos? Rerum repudiandae, odio nostrum, vero autem alias eius sed perspiciatis ad fuga illo animi quisquam cupiditate consequuntur dignissimos nobis incidunt! Fuga tempora, cum nihil dolorum deleniti architecto explicabo alias a amet sed similique, laboriosam facere quasi dolore at sunt. Modi porro, vitae asperiores aut esse nemo nam hic totam, quis nostrum voluptates ut. Architecto fugiat eveniet, error debitis, reprehenderit maxime dignissimos deserunt praesentium quo necessitatibus eos.
+<!--        
+         4. Break -->
+         <!-- - <br> it cuts the text if you put it somewhere -->
+<!-- 5. Horizontal line  -->
+<!-- <hr> it place a horizontal line underneed tehe text or whereever you want it  -->
+<!-- <hr> creates the horizontal line whereever you placed it in the body  -->
+<!-- 6. Lists - 3 types of lists  -->
+<div>
+<h1>Nelson Medela</h1>
+ <p class="para1">His life is inspiring</p>
+
+</div>
+ <p class="para2">This is my second paragraph</p>
+ <p class="para3">This is my third paragraph</p>
+ <hr>
+<h4>Undordered List</h4>
+<ul>
+    <li>Lolipops</li>
+
+   <h4> Ordered List</h4h4> 
+    <ol>
+        <li>Candy</li>
+        <li>Ice-Cream</li>
+        <li>cake</li>
+        <li>Cheesecake</li>
+    </ol>
+
+
+    <hr>
+    <!-- <hr> - horisontal line  -->
+        <!-- 7. Images :  -->
+         
+<img src="https://images.pexels.com/photos/15818869/pexels-photo-15818869/free-photo-of-person-riding-extremely-packed-bike.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt=""width=200px height="200px">
+        <!-- alt explain a description of the oimage in case the link wasn't paste properly , alt is optional - we don't have to fill anything , but if the image does not show up - this will give an explanation what is the image that is supposed to be there
+         scr - source -->
+
+<!-- ul - this is ordered list  <ul></ul> -->
+ <img src="images/my image downloaded.jpg" alt="" width="200px" height="200px">
+
+<!-- 8.Links  when you tyype a only it shows a:link - click on it and it paste the address empty that you want to add there--> 
+    <br>
+    <a href="contact.html">Contact</a>
+<!-- 9.Linking other pages -->
+<!-- So, to link within the website you create another file in the explorer , after adding it we press ! so we can open another HTML doctype tamplate and to link it to different page on our website - we have to type a:link so we can input the contact.html page (if that is how we named it) and on the contact.html page we have to a:link and input the index.html page , so once we are there we can go back - and we shoud name them contact page, and main page , we do that in between the 2 crocodile closed brackets  -->
+</body>
+</html>
