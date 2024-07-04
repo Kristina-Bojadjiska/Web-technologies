@@ -96,7 +96,7 @@
 }
 
 /* hover effect is highlighting the button when you click, go there */
-.content .button-hover {
+.content .button:hover {
     border-color: #cd7771;
     background: #cd7771;
     color: black;
