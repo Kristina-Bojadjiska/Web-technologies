@@ -1,0 +1,19 @@
+
+#cookieBanner {
+    background-color: #f4f4f4;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    border-top: 1px solid #ccc;
+}
+
+#btnCloseBanner {
+    background-color: #ff0000;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    margin-left: 10px;
+}
