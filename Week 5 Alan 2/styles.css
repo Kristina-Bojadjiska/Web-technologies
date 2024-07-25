@@ -1,6 +1,6 @@
 
 #cookieBanner {
-    background-color: #f4f4f4;
+    background-color: #af1313;
     padding: 10px;
     position: fixed;
     bottom: 0;
@@ -10,7 +10,7 @@
 }
 
 #btnCloseBanner {
-    background-color: #ff0000;
+    background-color: #7a70b2;
     color: #fff;
     border: none;
     padding: 5px 10px;
